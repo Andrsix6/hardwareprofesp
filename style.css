@@ -11,7 +11,6 @@ body {
 }
 
 header {
-    color: ;
     padding: 10px o;
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif
@@ -24,7 +23,7 @@ nav ul {
 }
 
 nav ul li {
-    color: black;
+    color:black;
     display: inline;
     margin: 0 15px;
 }
@@ -66,6 +65,7 @@ img {
 
 button {
     background-color: azure;
+    color: black;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -73,10 +73,14 @@ button {
 
 button:hover {
     background-color: blue;
-    color: black;
+    color: white;
 }
 
 button:active {
     background-color: white;
     color: black;
+}
+
+a:hover {
+    color:aliceblue
 }
