@@ -3,29 +3,35 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #808080;
+}
+
+@media screen (max-width: 100%){}
+.banner    {width: 100%;
 }
 
 header {
-    background: #4CAF50;
-    color: white;
-    padding: 10px 0;
+    color: ;
+    padding: 10px o;
     text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 nav ul {
+    color: black;
     list-style: none;
     padding: 0;
 }
 
 nav ul li {
+    color: black;
     display: inline;
     margin: 0 15px;
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
+    color: black;
 }
 
 main {
@@ -52,4 +58,25 @@ footer {
 
 img {
     width: 30%;
+}
+
+.hardware1 {
+    width: 30%;
+}
+
+button {
+    background-color: azure;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+    color: black;
+}
+
+button:active {
+    background-color: white;
+    color: black;
 }
